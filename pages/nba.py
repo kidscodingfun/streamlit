@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+st.set_page_config(
+    page_title="NBA",
+)
 
 # Load data
 @st.cache_data
